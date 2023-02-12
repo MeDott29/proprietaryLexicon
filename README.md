@@ -16,7 +16,10 @@ Arduino
 
 React
 Node.js
-MongoDB
+MongoDB:
+
+MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema
+
 Linux
 
 Android
@@ -51,3 +54,7 @@ PCB Design
 Analog Circuits
 
 Digital Circuits
+
+Digital circuits are circuits dealing with signals restricted to the range of between two defined values, normally the two different voltage levels of the power supply, representing "1" and "0", respectively, often denoted as "high" and "low", or "true" and "false".
+
+
