@@ -1,0 +1,12 @@
+import os
+import openai
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+response = openai.Edit.create(
+  model="text-davinci-edit-001",
+  input="# Lexicon Definition:\n\n\nC++:\n\n\n\n\n\nC#:\n\n\n\n\n\nJavaScript:\n\n\n\n\n\nPython:\n\n\n\n\n\nNetworking:\n\n\n\n\n\nCloud Computing:\n\n\n\n\n\nRaspberry Pi:\n\n\n\n\n\nArduino:\n\n\n\n\n\nReact:\n\n\n\n\n\nNode.js:\n\n\n\n\n\nLinux:\n\n\n\n\n\n\n\n\n\nAndroid:\n\n\n\n\n\niOS:\n\n\n\n\n\nSystem Security:\n\n\n\n\n\nHardware:\n\n\n\n\n\nRobotics:\n\n\n\n\n\nMachine Learning:\n\n\n\n\n\nAI:\n\n\n\n\n\nElectronics:\n\n\nVLSI:\n\n\nCircuit Design:\n\n\nFPGA:\n\n\nAutomation:\n\n\nCAD/CAM:\n\n\nCommunication Protocols:\n\n\nPCB Design:\n\n\nAnalog Circuits:\n",
+  instruction="Please, define all terms below:",
+  temperature=0.7,
+  top_p=1
+)
